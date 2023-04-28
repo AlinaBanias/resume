@@ -4,40 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css">
     <title>Resume</title>
 </head>
 <body>
     <main>
-        
-        <div>
+        <div class="main">
+        <div class="container">
             <!-- Summary -->
-            <div>
-                <h1>Front-end Developer</h1>
-                <h2>Alina Banias</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            <div class="summary">
+                <h1 class="summary__title">Front-end Developer</h1>
+                <h2 class="summary__name">Alina Banias</h2>
+                <p class="summary__text">I am a girl who at one point realized that she does not want to be a cook, that she wants to create something useful at the level of information 
+                    technologies, to do for people not only locally, but also online. I am a student of GoIT courses and I know a lot of technologies, but I want to improve them more in 
+                    practice in live projects, also improve my skills.</p>
         </div>
         <!-- Projects -->
-        <div>
-            <h3>Projects</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+        <div class="projects">
+            <h3 class="projects__title">Projects</h3>
+            <ul class="projects__item">
+                <li class="projects__list">
+                    <a class="projects__link" href="https://alinabanias.github.io/goit-markup-hw-08/">WebStudio</a>
+                    <p class="projects__text">
+                        [HTML, SCSS, JavaScript, Parcel, Git]</br>
+                        Role: Developer.
+                        An attractive website with a responsive layout. The project was created for a web studio company that offers various services and shows its portfolio works.
+                    </p>
+                </li>
+                <li class="projects__list">
+                    <a class="projects__link" href="https://github.com/dvolodko/group-project4-icecream">IceCream Shop</a>
+                    <p class="projects__text">
+                        [HTML, SCSS, JavaScript, Parcel, Git]</br>
+                        Role: Developer.
+                        Ice-cream company website with responsive layout, burger menu, modal windows and attractive design.
+                    </p>
+                    </li>
+                <li class="projects__list">
+                    <a class="projects__link" href="https://oleksii1994.github.io/parcel-project-news/">News</a>
+                    <p class="projects__text">
+                        [HTML, SCSS, Javascript, Parcel, Git]</br>
+                        Role: Developer.
+                        Team project. Application for choosing a news. Work with API and Local Storage. 
+                    </p>
+                </li>
             </ul>
         </div>
         <!-- Education -->
-        <div>
-       <h3>Education</h3>
-
+        <div class="education">
+       <h3 class="education__title">Education</h3>
+       <div class="education__box">
+        <h4 class="education__name">Kiev University of Culture</h4>
+       <p class="education__occupation">Hotel and restaurant business</p>
+       <p class="education__date">September 2018 / 2023</p>
+       </div>
+       <div class="education__box">
+        <h4 class="education__name">GoIT</h4>
+        <p class="education__occupation">Front-end Developer</p>
+        <p class="education__date">July 2022 / 2023</p>
+       </div>
+        </div>
+         <!-- Languages -->
+         <div class="languages">
+            <h3 class="languages__title">Languages</h3>
+            <p class="languages__text"><span class="text-span">English</span>  / Pre-Intermidiate</p>
+            <p class="languages__text"><span class="text-span">Ukranian</span>  / Native</p>
         </div>
 
         </div>
         <!-- Sidebar -->
-        <div>
-            
+        <div class="sidebar">
+            <div>
+                <img src="./images/photo_2023-03-25_12-12-24.jpg" alt="Alina Banias" width="370">
+                <!-- Contacts -->
+                <div class="contacts">
+                    <h3 class="contacts__title">Contacts</h3>
+                    <ul class="contacts__item">
+                        <li class="contacts__list"><a class="contacts__link" href="tel:+380667186893">
+                            <svg class="contacts__icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                            Phone Number</a></li>
+                        <li class="contacts__list"><a class="contacts__link" href="mailto:baniasalina@gmail.com">
+                            <svg class="contacts__icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                            Email</a></li>
+                        <li class="contacts__list"><a class="contacts__link" href="https://t.me/alinaivanivna">
+                            <svg class="contacts__icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                            </svg>
+                            Telegram</a></li>
+                        <li class="contacts__list"><a class="contacts__link" href="https://www.linkedin.com/in/alina-banias/">
+                            <svg class="contacts__icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
+                            </svg>
+                            LinkedIn</a></li>
+                    </ul>
+                </div>
+               
+    
+            </div>
+            <!-- Hard Skills -->
+            <div class="hard-skills">
+                <h3 class="hard-skills__title">Hard Skills</h3>
+                <ul class="hard-skills__item">
+                    <li class="hard-skills__list">HTML5/CSS3/SASS</li>
+                    <li class="hard-skills__list">Responsive/Adaptive design</li>
+                    <li class="hard-skills__list">GIT</li>
+                    <li class="hard-skills__list">Javascript</li>
+                    <li class="hard-skills__list">React</li>
+                    <li class="hard-skills__list">Redux</li>
+                    <li class="hard-skills__list">REST API</li>
+                    <li class="hard-skills__list">Handlebars</li>
+                    <li class="hard-skills__list">Webpack</li>
+                    <li class="hard-skills__list">Parcel</li>
+                    <li class="hard-skills__list">Node.js</li>
+                </ul>
+            </div>
+            <!-- Soft Skills -->
+            <div class="soft-skills">
+                <h3 class="soft-skills__title">Soft Skills</h3>
+                <ul class="soft-skills__item">
+                    <li class="soft-skills__list">Teamwork</li>
+                    <li class="soft-skills__list">Adaptability</li>
+                    <li class="soft-skills__list">Problem solving</li>
+                </ul>
+            </div>
         </div>
-       
-
+    </div>
     </main>  
 </body>
 </html>
