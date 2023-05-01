@@ -23,6 +23,7 @@ h5,
 h6,
 p,
 ul,
+ol,
 table,
 th,
 td {
@@ -49,30 +50,40 @@ img {
   justify-content: space-between;
 }
 .container {
-  margin-top: 102px;
+  margin-top: 50px;
   margin-right: 120px;
 }
 
-/* Summary block */
+/* Name block */
 
-.summary {
+.name {
   padding-bottom: 40px;
 }
-.summary__title {
+.name__position {
   margin-bottom: 19px;
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 17px;
 }
-.summary__name {
+.name__title {
   margin-bottom: 19px;
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 38px;
   line-height: 55px;
 }
+
+/* Summary */
+
+.summary__title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
 .summary__text {
+  margin-bottom: 19px;
   width: 500px;
   font-weight: 400;
   font-size: 14px;
@@ -101,15 +112,27 @@ img {
   margin-bottom: 18px;
 }
 .projects__link {
-  display: block;
   margin-bottom: 12px;
   text-decoration: none;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
 
   color: orange;
+}
+.projects__links {
+  text-decoration: none;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: orange;
+}
+.line {
+  font-weight: 400;
+  color: #1e2939;
 }
 .projects__text {
   font-weight: 400;
@@ -117,6 +140,47 @@ img {
   line-height: 24px;
 
   color: #595959;
+}
+
+/* Work Experience block */
+
+.work__title {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+.work__position {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: orange;
+}
+.work__text {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #a8a8a8;
+}
+.work__line {
+  font-weight: bold;
+  color: #1e2939;
+}
+.work__list {
+  padding-bottom: 19px;
+}
+.work__item {
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.work__item::marker {
+  font-weight: 700;
 }
 
 /* Education block */
@@ -152,28 +216,6 @@ img {
   line-height: 15px;
 
   color: #a8a8a8;
-}
-
-/* Languages */
-.languages {
-  width: 600px;
-  padding-top: 30px;
-  padding-bottom: 107px;
-}
-.languages__title {
-  margin-bottom: 17px;
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-}
-.languages__text {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
-}
-.text-span {
-  color: orange;
 }
 
 /* Sidebar */
@@ -246,6 +288,7 @@ img {
 
 .soft-skills {
   padding-left: 60px;
+  padding-bottom: 30px;
 }
 .soft-skills__title {
   margin-bottom: 10px;
@@ -265,3 +308,22 @@ img {
 .soft-skills__list::marker {
   color: orange;
 }
+
+/* Languages */
+
+.languages {
+    padding-left: 60px;
+}
+.languages__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #e5e5e5;
+}
+.languages__text {
+    margin-bottom: 8px;
+    color: #e5e5e5; 
+}
+
