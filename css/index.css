@@ -34,6 +34,7 @@ td {
 img {
   display: block;
   height: auto;
+  box-shadow: 20px 20px white;
 }
 
 /* Main styles */
@@ -42,12 +43,11 @@ img {
   background-color: #ffffff;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space;
   
 }
 .container {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
   margin-top: 50px;
   margin-right: 120px;
 }
@@ -55,8 +55,9 @@ img {
 /* Name block */
 
 .name {
- 
+  padding-top: 70px;
   padding-bottom: 40px;
+  background-size: 400px;
 
 }
 .name__position {
@@ -65,13 +66,16 @@ img {
   font-weight: 700;
   font-size: 24px;
   line-height: 17px;
+
 }
 .name__title {
   margin-bottom: 19px;
   font-style: normal;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 45px;
   line-height: 55px;
+
+  color: #008B8B;
 }
 
 /* Summary */
@@ -84,7 +88,6 @@ img {
 }
 .summary__text {
   margin-bottom: 19px;
-  width: 500px;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -95,7 +98,6 @@ img {
 /* Projects block */
 
 .projects {
-  width: 600px;
   padding-bottom: 43px;
 }
 .projects__title {
@@ -185,7 +187,7 @@ img {
 
 /* Education block */
 .education {
-  width: 600px;
+  padding-bottom: 30px;
 }
 .education__box {
   margin-bottom: 18px;
@@ -197,7 +199,7 @@ img {
   line-height: 27px;
 }
 .education__name {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -220,10 +222,11 @@ img {
 
 /* Sidebar */
 .sidebar {
-  padding-left: 400px;
-  padding-right: 200px;
-  padding-top: 40px;
-  background-color: #20B2AA;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 90px;
+  background-color: #008B8B;
+
 }
 
 /* Contacts */
@@ -231,6 +234,8 @@ img {
 .contacts {
   padding-bottom: 30px;
   padding-left: 60px;
+
+  color: #e5e5e5;
   
 }
 .contacts__title {
@@ -249,7 +254,7 @@ img {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #1e2939;
+  color: #e5e5e5;
 }
 .contacts .contacts__link {
   display: flex;
@@ -273,14 +278,14 @@ img {
   font-size: 22px;
   line-height: 27px;
 
-  
+  color: #e5e5e5; 
 }
 .hard-skills__item {
   margin-left: 15px;
 }
 .hard-skills__list {
   margin-bottom: 8px;
-
+  color: #e5e5e5;
 }
 .hard-skills__list::marker {
   color: orange;
@@ -298,14 +303,14 @@ img {
   font-size: 22px;
   line-height: 27px;
 
-
+  color: #e5e5e5;
 }
 .soft-skills__item {
   margin-left: 15px;
 }
 .soft-skills__list {
   margin-bottom: 8px;
- 
+  color: #e5e5e5;
 }
 .soft-skills__list::marker {
   color: orange;
@@ -322,10 +327,10 @@ img {
   font-size: 22px;
   line-height: 27px;
 
-  
+  color: #e5e5e5;
 }
 .languages__text {
     margin-bottom: 8px;
-    
+    color: #e5e5e5;
 }
 
