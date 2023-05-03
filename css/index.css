@@ -92,7 +92,6 @@ img {
   font-size: 14px;
   line-height: 24px;
 
-  color: #595959;
 }
 
 /* Projects block */
@@ -140,8 +139,6 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-
-  color: #595959;
 }
 
 /* Work Experience block */
@@ -165,8 +162,6 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-
-  color: #a8a8a8;
 }
 .work__line {
   font-weight: bold;
@@ -216,8 +211,6 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-
-  color: #a8a8a8;
 }
 
 /* Sidebar */
