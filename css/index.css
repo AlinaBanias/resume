@@ -184,7 +184,7 @@ img {
 
 /* Education block */
 .education {
-  padding-bottom: 30px;
+  padding-bottom: 140px;
 }
 .education__box {
   margin-bottom: 18px;
@@ -204,12 +204,12 @@ img {
   color: orange;
 }
 .education__occupation {
-  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
 }
 .education__date {
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
